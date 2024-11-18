@@ -1,11 +1,18 @@
 /* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 p {
     font-size: 14px;
 }
 
 body {
     background-color: hsl(30, 38%, 90%);
-
+    
+   
 }
 
 p { font-family: 'Fraunces';
@@ -27,10 +34,7 @@ h1 {
     background-color: #FAF9F6
 }
 
-.container {
-   
-    
-}
+
 
 .container button {
     justify-content: center;
